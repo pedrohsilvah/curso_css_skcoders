@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+button {
+    background-color: violet;
+    color: black;
+}
+
+button:hover {
+    background-color: white;
+    color: blue;
+    transition: 1.5s;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    color: red;
+    background-color: black;
+}
+
