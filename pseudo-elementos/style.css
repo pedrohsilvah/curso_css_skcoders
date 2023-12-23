@@ -1,0 +1,34 @@
+body {
+    background-color: rgba(0, 0, 0, 0.219);
+    font-size: 25px;
+} 
+ 
+/* exemplo de first-line e first-letter  */
+h1::first-letter {
+    color: aqua;
+}
+
+p::first-letter {
+    color: deeppink;
+}
+
+p::first-line {
+    color: blue;
+}
+
+/* exemplo do after e before */
+
+.caixa {
+    background-color: red;
+}
+
+.caixa::before {
+    content: "Antes";
+    background-color: rgb(0, 255, 157);
+}
+
+.caixa::after {
+    content: "Depois";
+    background-color: aqua;
+}
+
