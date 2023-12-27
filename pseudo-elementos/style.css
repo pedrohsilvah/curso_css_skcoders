@@ -8,25 +8,30 @@ h1::first-letter {
     color: aqua;
 }
 
+/* estiliza a primeira letra da palavra  */
 p::first-letter {
     color: deeppink;
 }
 
+/* estiliza a primeira linha do parágrafo */
 p::first-line {
     color: blue;
 }
 
-/* exemplo do after e before */
+
+/* exemplo do after e before: para adicionar conteúdo antes e depois do elemento com a classe */
 
 .caixa {
     background-color: red;
 }
 
+/* cria um conteúdo antes da div selecionada */
 .caixa::before {
     content: "Antes";
     background-color: rgb(0, 255, 157);
 }
 
+/* cria um conteúdo depois da div selecionada */
 .caixa::after {
     content: "Depois";
     background-color: aqua;
