@@ -1,0 +1,13 @@
+div {
+    color: blue;
+}
+
+#texto {
+    /* ele vai ser o maior da hierarquia, pois está selecionado como importante */
+    color: red !important;
+}
+
+/* não vai aplicar esse estilo, pois outro valor da propriedade é mais importante */
+#texto {
+    color: green;
+}
